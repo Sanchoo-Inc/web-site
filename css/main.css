@@ -398,16 +398,36 @@ hr {
 }
 
 .project_item_center{
+	height: 850px;
 	width:100%;
 	position:relative;
 	z-index:1;
 }
 
+.project_item_center p{
+	font-size: 17.5px;
+}
+
+.project_item_p {
+	font-family: 'Poly', serif;
+	font-style: italic;
+}
+
+.img_item{
+	display: inline-block;
+	overflow: hidden;
+}
+
 .project_item_center img{
+	transition: 1s;
+	display: block;
 	border:0px;
 	width:100%;
 	height:auto;
-	border-bottom:1px solid #4b4646;
+}
+
+.project_item_center img:hover{
+	transform: scale(1.2);
 }
 
 .project_item h3 {
@@ -491,7 +511,10 @@ hr {
 	margin:0 !important;
     font-size: 18px;
 }
-
+.span2 img{
+	align-content: center;
+	opacity: 0.5;
+}
 
 /********** MEDIA QUIERIES **********/
 
