@@ -395,6 +395,7 @@ hr {
 	margin:0px 9px 19px 8.33px;
 	background-color:#fff;
 	min-height:100px;
+	overflow: hidden;
 }
 
 .project_item_center{
